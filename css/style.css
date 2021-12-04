@@ -1,0 +1,65 @@
+body{
+background-color: #121116;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1170px;
+    height: 420px;
+    margin-top: -210px;
+    margin-left: -585px;
+    background: linear-gradient(to right, /* или 90deg */ #2a252b 70%, #121116 0);
+    background-size: 100px 100%;
+}
+.logo{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 525px;
+    height: 36px;
+}
+h1{
+    position: absolute;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    color: white;
+    margin-top: 207px;
+    margin-left: 510px;
+    
+}
+
+.separator{
+    position: absolute;
+    margin-left: 470px;
+    margin-top: 240px;
+}
+.social{
+    position: absolute;
+    margin-top: 264px;
+    margin-left: 510px;
+
+}
+.social>img{
+    padding-right: 27px;
+}
+.rights{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 366px; 
+    margin-left: 465px; 
+
+}
+
+.rights>p{
+    display: inline-block; 
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #19c8fa;
+
+}
